@@ -10,17 +10,40 @@ body {
     color: whitesmoke;
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
-
+img {
+    width: 100%;
+}
+p, h1 {
+    cursor: default;
+}
 /* Section styles */
 nav {
-    height: 1.5rem;
-    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
 }
 .header-image {
     background-image: url(./images/Hamburger.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image h1 {
+    position: absolute;
+    top: 250px;
+    font-family: 'Ultra', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 4rem;
+}
+.left {
+    width: 110px;
+    height: 20px;
+    background-color: #111111;
 }
